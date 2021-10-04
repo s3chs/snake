@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#canvas {
+  margin-top: 125px;
+  image-rendering: pixelated;
+}
+
+#score {
+  margin-top: 100px;
+  color: #fefefe;
+  font-size: 50px;
+}
+
+#recommencer {
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 50px;
+  color: #fefefe;
+  display: none;
+}
